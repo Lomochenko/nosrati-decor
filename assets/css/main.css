@@ -90,6 +90,10 @@ Version: 1.0.0
 	color: rgba(255, 255, 255, 0.5);
 }
 
+@font-face {
+	font-family: amiri;
+	src: url(../fonts/amiri-Regular.ttf) format(ttf);
+}
 html,
 body {
 	margin: 0;
@@ -98,7 +102,7 @@ body {
 	background: var(--background);
 	font-size: 18px;
 	color: var(--gray);
-	font-family: "amiri",sans-serif;
+	font-family: "amiri",sans-serif !important;
 	font-weight: 400;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
@@ -109,10 +113,6 @@ body.no-scroll {
 	overflow: hidden;
 }
 
-@font-face {
-	font-family: amiri;
-	src: url(../fonts/amiri-Regular.ttf);
-}
 
 /* scrollbar color */
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
@@ -166,16 +166,16 @@ a:link {
 }
 
 a:active {
-	color: var(--bg-red);
+	color: var(--bg-red) !important;
 }
 
 a:visited {
-	color: var(--bg-red);
+	color: var(--white);
 }
 
 a:hover {
 	text-decoration: underline;
-	color: var(--bg-red);
+	color: var(--bg-red)  !important;
 }
 
 a img {
@@ -1168,7 +1168,7 @@ hr {
 	animation: preloader 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
 }
 
-@-webkit-keyframes preloader {
+@keyframes preloader {
 	0% {
 		-webkit-transform: translate3d(0, 0, 0) skew(-10deg, -10deg);
 		transform: translate3d(0, 0, 0) skew(-10deg, -10deg);
@@ -1992,7 +1992,7 @@ hr {
 	width: 40px;
 }
 
-@-webkit-keyframes close-menu-popup {
+@keyframes close-menu-popup {
 	0% {
 		-webkit-transform: translate3d(0, 0, 0) skew(-10deg, -10deg);
 		transform: translate3d(0, 0, 0) skew(-10deg, -10deg);
@@ -2004,7 +2004,7 @@ hr {
 	}
 }
 
-@-webkit-keyframes open-menu-popup {
+@keyframes open-menu-popup {
 	0% {
 		-webkit-transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);
 		transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);
@@ -4761,11 +4761,15 @@ body .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
 
 .section.m-image-large .image {
 	position: relative;
-	width: 50%;
+	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
 }
-
+@media screen and (min-width:990px) {
+	.section.m-image-large .image{
+		width: 50%;
+	}
+}
 .section.m-image-large .image img {
 	max-width: 100%;
 }
