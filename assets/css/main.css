@@ -98,7 +98,7 @@ body {
 	background: var(--background);
 	font-size: 18px;
 	color: var(--gray);
-	font-family: "amiri", sans-serif;
+	font-family: "amiri",sans-serif !important, sans-serif;
 	font-weight: 400;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
@@ -189,7 +189,7 @@ img {
 input,
 textarea,
 button {
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 }
 
 label {
@@ -420,7 +420,7 @@ textarea {
 	display: block;
 	width: 100%;
 	height: 56px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 18px;
 	color: var(--white);
 	resize: none;
@@ -454,7 +454,7 @@ label,
 legend {
 	display: block;
 	padding-bottom: 10px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 18px;
 }
 
@@ -470,7 +470,7 @@ input[type="radio"] {
 
 label.error {
 	padding-top: 5px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 14px;
 	color: red;
 	display: none;
@@ -549,7 +549,7 @@ blockquote,
 	margin: 50px 0;
 	padding: 0 50px;
 	padding-top: 35px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 20px;
 	line-height: 1.3;
 	color: var(--white);
@@ -626,7 +626,7 @@ blockquote cite,
 .wp-block-quote.is-large cite,
 .wp-block-quote.is-style-large cite,
 .wp-block-pullquote cite {
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 16px;
 	font-style: normal;
 	display: block;
@@ -1787,7 +1787,7 @@ hr {
 	vertical-align: top;
 	font-size: 49px;
 	line-height: 1;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	color: var(--gray);
 	font-weight: 700;
 	text-decoration: none;
@@ -1906,7 +1906,7 @@ hr {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 22px;
 	line-height: 1;
 	font-weight: 700;
@@ -2406,7 +2406,7 @@ hr {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 152px;
 	line-height: 1;
 	font-weight: 400;
@@ -2855,7 +2855,7 @@ hr {
 .hero-main-slider .slide-titles .title {
 	position: relative;
 	display: block;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 108px;
 	line-height: 1;
 	font-weight: 500;
@@ -3114,7 +3114,7 @@ body .hero-main-slider .swiper-pagination {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 112px;
 	line-height: 0.9;
 	font-weight: 400;
@@ -3283,7 +3283,7 @@ body .hero-main-slider .swiper-pagination {
 	position: relative;
 	margin-top: 0px;
 	margin-bottom: 40px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 99px;
 	line-height: 1;
 	color: var(--white);
@@ -3438,7 +3438,7 @@ body .hero-main-slider .swiper-pagination {
 }
 
 .section.hero-started .title {
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 132px;
 	line-height: 1;
 	color: var(--white) !important;
@@ -3577,14 +3577,14 @@ body .hero-main-slider .swiper-pagination {
 .quote-box .name {
 	font-size: 152px;
 	line-height: 1;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	color: var(--white);
 	font-weight: 400;
 }
 
 .quote-box .label {
 	font-size: 15px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	color: var(--white);
 	font-weight: 400;
 }
@@ -3656,7 +3656,7 @@ body .hero-main-slider .swiper-pagination {
 
 .experience-carousel .slide-titles .title {
 	margin-bottom: 10px;
-	font-family: "amiri";
+	font-family: "amiri",sans-serif !important;
 	font-size: 112px;
 	line-height: 1;
 	font-weight: 400;
