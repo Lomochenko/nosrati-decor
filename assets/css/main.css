@@ -114,6 +114,9 @@ body.no-scroll {
 	overflow: hidden;
 }
 
+body,p,h1,h2,h3,h4,h5,h6,span,a,strong,em,ul,li{
+	font-family: 'amiri', sans-serif !important;
+}
 
 
 /* scrollbar color */

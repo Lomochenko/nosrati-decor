@@ -510,25 +510,8 @@
                 toggleButton.classList.add('fa-play-circle');
 				music.pause();
             }
-			// 
-			// if (music.paused) {
-			// 	music.play();
-			// 	toggleButton.textContent = 'قطع موسیقی';
-				
-			// } else {
-			// 	music.pause();
-			// 	toggleButton.textContent = 'وصل موسیقی';
-			// }
 		});
-		// $('.has-popup-audio').magnificPopup({
-		// 	disableOn: 700,
-		// 	type: 'iframe',
-		// 	removalDelay: 160,
-		// 	preloader: false,
-		// 	fixedContentPos: false,
-		// 	mainClass: 'mfp-fade'
-		// });
-
+		
 		/*
 			Gallery popup
 		*/
