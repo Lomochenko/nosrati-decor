@@ -91,9 +91,9 @@ Version: 1.0.0
 }
 
 @font-face {
-	font-family: 'amiri';
-	src: url(../fonts/amiri-Regular.ttf);
-}
+	font-family: amiri;
+	src: url(../fonts/Amiri-Regular.ttf);
+  }
 
 html,
 body {
