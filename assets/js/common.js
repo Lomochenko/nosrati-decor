@@ -496,14 +496,27 @@
 		/*
 			Music popup
 		*/
-		$('.has-popup-audio').magnificPopup({
-			disableOn: 700,
-			type: 'iframe',
-			removalDelay: 160,
-			preloader: false,
-			fixedContentPos: false,
-			mainClass: 'mfp-fade'
+		const music = document.getElementById('background-music');
+		const toggleButton = document.getElementById('toggle-music');
+
+		toggleButton.addEventListener('click', () => {
+			if (music.paused) {
+				music.play();
+				toggleButton.textContent = 'قطع موسیقی';
+				
+			} else {
+				music.pause();
+				toggleButton.textContent = 'وصل موسیقی';
+			}
 		});
+		// $('.has-popup-audio').magnificPopup({
+		// 	disableOn: 700,
+		// 	type: 'iframe',
+		// 	removalDelay: 160,
+		// 	preloader: false,
+		// 	fixedContentPos: false,
+		// 	mainClass: 'mfp-fade'
+		// });
 
 		/*
 			Gallery popup
