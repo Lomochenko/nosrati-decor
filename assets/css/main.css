@@ -91,7 +91,7 @@ Version: 1.0.0
 }
 
 @font-face {
-	font-family: amiri;
+	font-family: 'amiri';
 	src: url(../fonts/amiri-Regular.ttf);
 }
 
@@ -2925,7 +2925,11 @@ hr {
 }
 
 .hero-main-slider .more-bts {
-	text-align: left;
+	text-align: right;
+}
+
+.more-bts a:hover{
+	color: #000 !important;
 }
 
 .hero-main-slider .btn.more-btn {
